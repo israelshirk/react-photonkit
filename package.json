@@ -5,7 +5,7 @@
   "main": "dist/photon.js",
   "scripts": {
     "test": "node test/test-karma.js",
-    "postinstall": "npm run build",
+    "postinstall": "echo npm run build",
     "build": "rm -rf dist && webpack --progress --colors"
   },
   "repository": {
